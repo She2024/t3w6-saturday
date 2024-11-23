@@ -21,7 +21,7 @@ export default function Navbar() {
                 Contact Me </NavLink>
             <NavLink
                 to={"/projects"}
-                className={({isActive}) => { return isActive ? "active" : "" }}>
+                className={({isActive}) => { return isActive ? "active" : "" }} end>
                 My Projects </NavLink>
             <NavLink
                 to={"/projects/terminalApp"}
